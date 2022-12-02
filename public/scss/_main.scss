@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+//--- VARIABLES
+
+// Sizing
+$h_nav: 72px;
+$w_sidebar: 250px;
+
+// Fonts
+$f_nav: 28px;
+$f_nav-sub: 24px;
+
+// Colors
+$c_black: #000000;
+$c_black-alt: #14213d;
+$c_accent: #fca311;
+$c_white: #ffffff;
+$c_white-alt: #e5e5e5;
+
+
+//--- UNIVERSIAL CSS
+
+// Applies to all
+* {
+
+    // Sizing
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    // Theming
+    font-family: 'Open Sans', sans-serif;
+}

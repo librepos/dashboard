@@ -1,0 +1,28 @@
+{
+  "name": "librepos-dashboard",
+  "version": "0.0.1",
+  "description": "The LibrePOS admin dashboard",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/librepos/dashboard.git"
+  },
+  "author": "Jamie King <jamie6king@gmail.com>",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/librepos/dashboard/issues"
+  },
+  "homepage": "https://github.com/librepos/dashboard#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+    head
+        include partials/head
+        link(rel="stylesheet", href="/css/login.min.css")
+    body
+        p.logo Libre#[span POS]
+        div.login
+            form(action="/login/server" method="POST")
+                input(type="text" id="server" name="server" placeholder="Server URL" value=serverURL)
+                input(type="submit", value="Next")

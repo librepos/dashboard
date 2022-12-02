@@ -1,0 +1,20 @@
+.sidebar {
+    grid-area: sidebar;
+    background-color: $c_white-alt;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+
+    a {
+        width: 100%;
+        height: fit-content;
+        padding: 12px;
+        border-radius: 4px;
+        text-decoration: none;
+        color: $c_black;
+
+        &:hover {
+            background-color: $c_accent;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    head
+        include partials/head
+        link(rel="stylesheet", href="/css/login.min.css")
+    body
+        p.logo Libre#[span POS]
+
+        div.login
+            p= server
+            form(action="/login/user" method="POST")
+                input(type="text" id="username" name="username" placeholder="Username" value=defaultUser)
+                input(type="password" id="password" name="password" placeholder="Password")
+                input(type="submit", value="Login")
